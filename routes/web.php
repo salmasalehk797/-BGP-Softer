@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
  });
 
-//Route::get('/', 'pagescontroller@home');
+Route::get('/', 'pagescontroller@home');
 Route::get('/templates', 'pagescontroller@templates');
 Route::get('/services', 'pagescontroller@services');
 Route::get('/createwebsite', 'pagescontroller@createwebsite');

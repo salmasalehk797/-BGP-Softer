@@ -42,3 +42,715 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2025-08-29 00:50:40] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(117): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 00:50:40] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 00:51:03] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(117): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 00:51:03] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 00:51:16] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(117): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 00:51:16] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 00:51:19] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(117): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 00:51:19] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 00:51:20] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(117): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 00:51:20] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 00:51:20] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(117): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 00:51:20] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 00:51:31] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(117): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 00:51:31] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 00:54:03] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(117): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 00:54:03] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 01:06:35] local.ERROR: SQLSTATE[HY000] [2002] Connection refused (SQL: select * from information_schema.tables where table_schema = Softer and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] Connection refused (SQL: select * from information_schema.tables where table_schema = Softer and table_name = migrations and table_type = 'BASE TABLE') at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php:671)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(745): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(725): Illuminate\\Database\\Connection->tryAgainIfCausedByLostConnection(Object(Illuminate\\Database\\QueryException), 'select * from i...', Array, Object(Closure))
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(634): Illuminate\\Database\\Connection->handleQueryException(Object(Illuminate\\Database\\QueryException), 'select * from i...', Array, Object(Closure))
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#12 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(33): call_user_func_array(Array, Array)
+#13 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(91): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Command.php(134): Illuminate\\Container\\Container->call(Array)
+#18 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Command/Command.php(258): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(911): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\\Database\\Connectors\\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'root', '', Array)
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#5 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(926): call_user_func(Object(Closure))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(961): Illuminate\\Database\\Connection->getPdo()
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(405): Illuminate\\Database\\Connection->getReadPdo()
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): Illuminate\\Database\\Connection->getPdoForSelect(true)
+#10 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(664): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from i...', Array)
+#11 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(745): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#12 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(725): Illuminate\\Database\\Connection->tryAgainIfCausedByLostConnection(Object(Illuminate\\Database\\QueryException), 'select * from i...', Array, Object(Closure))
+#13 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(634): Illuminate\\Database\\Connection->handleQueryException(Object(Illuminate\\Database\\QueryException), 'select * from i...', Array, Object(Closure))
+#14 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#15 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#16 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#17 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#18 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#19 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#20 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#21 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#22 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#23 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(33): call_user_func_array(Array, Array)
+#24 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(91): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#26 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#27 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#28 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Command.php(134): Illuminate\\Container\\Container->call(Array)
+#29 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Command/Command.php(258): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#31 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(911): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 {main}
+"} 
+[2025-08-29 01:18:45] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 01:18:45] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 01:19:00] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 01:19:00] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 01:19:21] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 01:19:21] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 01:22:16] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 01:22:16] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 01:24:26] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php:110)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(240): collect(Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Users/omar/Desktop/Programming codes/GPSofter/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2025-08-29 01:24:26] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1338
+Stack trace:
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Users/omar/Des...', 1338)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(444): include('/Users/omar/Des...')
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Users/omar/Des...')
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Support/Collection.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2025-08-29 01:59:05] local.ERROR: SQLSTATE[HY000] [2002] Connection refused (SQL: select * from information_schema.tables where table_schema = Softer and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] Connection refused (SQL: select * from information_schema.tables where table_schema = Softer and table_name = migrations and table_type = 'BASE TABLE') at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php:671)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(745): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(725): Illuminate\\Database\\Connection->tryAgainIfCausedByLostConnection(Object(Illuminate\\Database\\QueryException), 'select * from i...', Array, Object(Closure))
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(634): Illuminate\\Database\\Connection->handleQueryException(Object(Illuminate\\Database\\QueryException), 'select * from i...', Array, Object(Closure))
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#5 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#10 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#11 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#12 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Command.php(134): Illuminate\\Container\\Container->call(Array)
+#17 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70)
+[stacktrace]
+#0 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\\Database\\Connectors\\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'root', '', Array)
+#3 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#4 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#5 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#6 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(926): call_user_func(Object(Closure))
+#7 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(961): Illuminate\\Database\\Connection->getPdo()
+#8 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(405): Illuminate\\Database\\Connection->getReadPdo()
+#9 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): Illuminate\\Database\\Connection->getPdoForSelect(true)
+#10 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(664): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from i...', Array)
+#11 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(745): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#12 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(725): Illuminate\\Database\\Connection->tryAgainIfCausedByLostConnection(Object(Illuminate\\Database\\QueryException), 'select * from i...', Array, Object(Closure))
+#13 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(634): Illuminate\\Database\\Connection->handleQueryException(Object(Illuminate\\Database\\QueryException), 'select * from i...', Array, Object(Closure))
+#14 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#15 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#16 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#17 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#18 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#19 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#20 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#21 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#22 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#23 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#24 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#25 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Container/Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Command.php(134): Illuminate\\Container\\Container->call(Array)
+#28 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 /Users/omar/Desktop/Programming codes/GPSofter/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 /Users/omar/Desktop/Programming codes/GPSofter/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 /Users/omar/Desktop/Programming codes/GPSofter/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 {main}
+"} 

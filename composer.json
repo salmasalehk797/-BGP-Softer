@@ -6,20 +6,18 @@
         "framework",
         "laravel"
     ],
-    "license": "MIT",
-    "require": {
-        "php": "^7.2.4",
-        "fideloper/proxy": "^4.2",
-        "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^6.3",
-        "infyomlabs/adminlte-templates": "dev-master",
-        "jeremykenedy/laravel2step": "^1.8",
-        "laravel/framework": "^7.0",
-        "laravel/tinker": "^2.0",
-        "laravel/ui": "^2.1",
-        "laravelcollective/html": "^6.1",
-        "yajra/laravel-datatables": "^1.5",
-        "yajra/laravel-datatables-oracle": "^9.0"
+    "require": { "php": "^7.2.4", 
+    "fideloper/proxy": "^4.2", 
+    "fruitcake/laravel-cors": "^2.0", 
+    "guzzlehttp/guzzle": "^6.3", 
+    "infyomlabs/adminlte-templates": "7.0.x-dev", 
+    "jeremykenedy/laravel2step": "^1.8", 
+    "laravel/framework": "^7.0", 
+    "laravel/tinker": "^2.0", 
+    "laravel/ui": "^2.1", 
+    "laravelcollective/html": "^6.1", 
+    "yajra/laravel-datatables": "^1.5", 
+    "yajra/laravel-datatables-oracle": "^9.0" 
     },
     "require-dev": {
         "facade/ignition": "^2.0",
