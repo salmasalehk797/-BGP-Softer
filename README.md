@@ -1,4 +1,7 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<p align="center">
+  <img src="public/favicon.ico" width="400">
+</p>
+<h1 align="center"><b>Softer</b></h1>
 
 # About Softer
 
@@ -37,4 +40,35 @@ Follow these steps to run the project locally:
 git clone https://github.com/salmasalehk797/BachlorGP-Softer.git
 
 cd BachlorGP-Softer
+```
 
+### 2. Install PHP dependencies
+```bash
+composer install
+```
+
+### 3. Set up environment
+- Copy the example .env file:
+```bash
+cp .env.example .env
+```
+- Update .env with your database credentials.
+- Generate the application key:
+```bash
+php artisan key:generate
+```
+
+### 4. Run database migrations
+```bash
+php artisan migrate
+```
+
+### 5. Serve the application
+```bash
+php artisan serve
+```
+- Open your browser and go to: http://127.0.0.1:8000
+
+# Author
+## Salma Saleh
+Bachelor Project – Laravel Web Application
