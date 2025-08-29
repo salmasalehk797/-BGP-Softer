@@ -1,0 +1,839 @@
+﻿<@extends('FrontEnd.incs.app')
+@section('content')
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+				<!-- Google Analytics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async="" src="/FrontEnd/Templates - ( )Softer. Templates_files/js_002.js"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push( arguments );
+			}
+
+			gtag( 'js', new Date() );
+
+			gtag( 'config', '' );
+		</script>
+		<!-- End Google Analytics -->
+		<title>( )Softer. | Templates</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v13.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->
+<meta name="robots" content="noindex,follow">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Templates - ( )Softer. Templates">
+<meta property="og:description" content="Templates Get complete control over the design of your WordPress site in a matter of minutes. Go from draft to website in less time than ever before. Previous Next “What really turned me over was the ability to understand how everything works without any prior knowledge.” John Doe Designer Experience design at scale I am…&nbsp;Read More »Templates">
+<meta property="og:url" content="http://localhost/wordpress/index.php/templates/">
+<meta property="og:site_name" content="( )Softer.">
+<meta property="og:image" content="http://localhost/wordpress/wp-content/uploads/elementor/thumbs/zusman-on1pw6j2qsposwjyvcy8naaxlczvvlq4tyj0r7c0e8.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Templates Get complete control over the design of your WordPress site in a matter of minutes. Go from draft to website in less time than ever before. Previous Next “What really turned me over was the ability to understand how everything works without any prior knowledge.” John Doe Designer Experience design at scale I am…&nbsp;Read More »Templates">
+<meta name="twitter:title" content="Templates - ( )Softer. Templates">
+<meta name="twitter:image" content="http://localhost/wordpress/wp-content/uploads/elementor/thumbs/zusman-on1pw6j2qsposwjyvcy8naaxlczvvlq4tyj0r7c0e8.png">
+<script type="application/ld+json" class="yoast-schema-graph yoast-schema-graph--main">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "http://localhost/wordpress/#organization",
+            "name": "Softer",
+            "url": "http://localhost/wordpress/",
+            "sameAs": [],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "http://localhost/wordpress/#logo",
+                "inLanguage": "en-US",
+                "url": "http://localhost/wordpress/wp-content/uploads/2020/03/LOgoblack-4.png",
+                "width": 200,
+                "height": 113,
+                "caption": "Softer"
+            },
+            "image": {
+                "@id": "http://localhost/wordpress/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "http://localhost/wordpress/#website",
+            "url": "http://localhost/wordpress/",
+            "name": "Softer",
+            "inLanguage": "en-US",
+            "publisher": {
+                "@id": "http://localhost/wordpress/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": "http://localhost/wordpress/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            ]
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "http://localhost/wordpress/index.php/templates/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "http://localhost/wordpress/wp-content/uploads/elementor/thumbs/zusman-on1pw6j2qsposwjyvcy8naaxlczvvlq4tyj0r7c0e8.png"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "http://localhost/wordpress/index.php/templates/#webpage",
+            "url": "http://localhost/wordpress/index.php/templates/",
+            "name": "Templates - ( )Softer. Templates",
+            "isPartOf": {
+                "@id": "http://localhost/wordpress/#website"
+            },
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+                "@id": "http://localhost/wordpress/index.php/templates/#primaryimage"
+            },
+            "datePublished": "2020-03-24T23:47:26+00:00",
+            "dateModified": "2020-03-29T01:18:45+00:00",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "http://localhost/wordpress/index.php/templates/"
+                    ]
+                }
+            ]
+        }
+    ]
+}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="( )Softer. » Feed" href="http://localhost/wordpress/index.php/feed/">
+<link rel="alternate" type="application/rss+xml" title="( )Softer. » Comments Feed" href="http://localhost/wordpress/index.php/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="/FrontEnd/Templates - ( )Softer. Templates_files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="dashicons-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/dashicons.css" type="text/css" media="all">
+<link rel="stylesheet" id="admin-bar-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/admin-bar.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-ui-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/jquery-ui.css" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/animate.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-5-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/font-awesome-5.css" type="text/css" media="all">
+<link rel="stylesheet" id="wppb-fonts-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/wppb-fonts.css" type="text/css" media="all">
+<link rel="stylesheet" id="wppb-addons-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/wppb-addons.css" type="text/css" media="all">
+<link rel="stylesheet" id="wppb-main-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/wppb-main.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/elementor-icons.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-common-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/common.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/style_005.css" type="text/css" media="all">
+<link rel="stylesheet" id="wc-block-style-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/style_004.css" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/animate_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="themeisle-gutenberg-animation-style-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/style_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="themeisle-block_styles-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/style_003.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/woocommerce-layout.css" type="text/css" media="all">
+<style id="woocommerce-layout-inline-css" type="text/css">
+
+	.infinite-scroll .woocommerce-pagination {
+		display: none;
+	}
+</style>
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/woocommerce.css" type="text/css" media="all">
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="wpforms-full-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/wpforms-full.css" type="text/css" media="all">
+<link rel="stylesheet" id="ea-admin-bar-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/admin-bar_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="hfe-style-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/header-footer-elementor.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-animations-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/animations.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/frontend.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-5-all-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/all.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-4-shim-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/v4-shims.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-4418-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/post-4418.css" type="text/css" media="all">
+<link rel="stylesheet" id="hfe-widgets-style-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/frontend_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-4677-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/post-4677.css" type="text/css" media="all">
+<link rel="stylesheet" id="neve-woocommerce-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/woocommerce_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="neve-style-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/style_006.css" type="text/css" media="all">
+<style id="neve-style-inline-css" type="text/css">
+body, .site-title{font-size:15px;line-height:1.6em;letter-spacing:0px;}body, .site-title,.cart_totals > h2, .cross-sells > h2, .woocommerce-billing-fields > h3, #order_review_heading, .woocommerce-shipping-fields > h3{font-family:"Chelsea Market";font-weight:500;text-transform:none;}h1, .single h1.entry-title, h2, h3, h4, h5, h6{font-family:"Fredoka One";}.has-white-background-color{background-color:#ffffff!important;}.has-white-color{color:#ffffff!important;}.has-black-background-color{background-color:#000000!important;}.has-black-color{color:#000000!important;}.has-neve-button-color-background-color{background-color:#0366d6!important;}.has-neve-button-color-color{color:#0366d6!important;}.has-neve-link-color-background-color{background-color:#0366d6!important;}.has-neve-link-color-color{color:#0366d6!important;}.has-neve-link-hover-color-background-color{background-color:#0366d6!important;}.has-neve-link-hover-color-color{color:#0366d6!important;}.has-neve-text-color-background-color{background-color:#404248!important;}.has-neve-text-color-color{color:#404248!important;}.nv-tags-list a{color:#f88603;}.nv-tags-list a{border-color:#f88603;} .button.button-primary, button, input[type=button], .btn, input[type="submit"], /* Buttons in navigation */ ul[id^="nv-primary-navigation"] li.button.button-primary > a, .menu li.button.button-primary > a ,.woocommerce a.button, .woocommerce .button:not(.nv-sidebar-toggle):not(.nv-close-cart-sidebar), .woocommerce a.button.alt, .woocommerce a.button.button-primary, .woocommerce a.button.checkout-button, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce a.button.add_to_cart, .woocommerce a.product_type_grouped, .woocommerce a.product_type_external, .woocommerce a.product_type_variable, .woocommerce button.button.alt, .woocommerce button.button.alt.single_add_to_cart_button.disabled, .woocommerce button.button.alt.single_add_to_cart_button, .woocommerce .actions > button[type=submit], .woocommerce .checkout.wc-forward, .woocommerce button#place_order, .woocommerce .return-to-shop > .button, ul[id^="nv-primary-navigation"] .nv-nav-cart a.button.checkout.wc-forward, .button.woocommerce-form-login__submit{background-color:#f88603;} .button.button-primary, button, input[type=button], .btn, input[type="submit"], /* Buttons in navigation */ ul[id^="nv-primary-navigation"] li.button.button-primary > a, .menu li.button.button-primary > a ,.woocommerce a.button, .woocommerce .button:not(.nv-sidebar-toggle):not(.nv-close-cart-sidebar), .woocommerce a.button.alt, .woocommerce a.button.button-primary, .woocommerce a.button.checkout-button, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce a.button.add_to_cart, .woocommerce a.product_type_grouped, .woocommerce a.product_type_external, .woocommerce a.product_type_variable, .woocommerce button.button.alt, .woocommerce button.button.alt.single_add_to_cart_button.disabled, .woocommerce button.button.alt.single_add_to_cart_button, .woocommerce .actions > button[type=submit], .woocommerce .checkout.wc-forward, .woocommerce button#place_order, .woocommerce .return-to-shop > .button, ul[id^="nv-primary-navigation"] .nv-nav-cart a.button.checkout.wc-forward, .button.woocommerce-form-login__submit{color:#ffffff;}.nv-tags-list a:hover{border-color:#0366d6;} .button.button-primary:hover, .nv-tags-list a:hover, ul[id^="nv-primary-navigation"] li.button.button-primary > a:hover, .menu li.button.button-primary > a:hover ,.woocommerce a.button:hover, .woocommerce .button:not(.nv-sidebar-toggle):not(.nv-close-cart-sidebar):hover, .woocommerce a.button.alt:hover, .woocommerce a.button.button-primary:hover, .woocommerce a.button.checkout-button:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover, .woocommerce a.button.add_to_cart:hover, .woocommerce a.product_type_grouped:hover, .woocommerce a.product_type_external:hover, .woocommerce a.product_type_variable:hover, .woocommerce button.button.alt.single_add_to_cart_button.disabled:hover, .woocommerce button.button.alt.single_add_to_cart_button:hover, .woocommerce .actions > button[type=submit]:hover, .woocommerce .checkout.wc-forward:hover, .woocommerce button#place_order:hover, .woocommerce .return-to-shop > .button:hover, ul[id^="nv-primary-navigation"] .nv-nav-cart a.button.checkout.wc-forward:hover, .button.woocommerce-form-login__submit:hover{background-color:#0366d6;} .button.button-primary:hover, .nv-tags-list a:hover, ul[id^="nv-primary-navigation"] li.button.button-primary > a:hover, .menu li.button.button-primary > a:hover ,.woocommerce a.button:hover, .woocommerce .button:not(.nv-sidebar-toggle):not(.nv-close-cart-sidebar):hover, .woocommerce a.button.alt:hover, .woocommerce a.button.button-primary:hover, .woocommerce a.button.checkout-button:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover, .woocommerce a.button.add_to_cart:hover, .woocommerce a.product_type_grouped:hover, .woocommerce a.product_type_external:hover, .woocommerce a.product_type_variable:hover, .woocommerce button.button.alt.single_add_to_cart_button.disabled:hover, .woocommerce button.button.alt.single_add_to_cart_button:hover, .woocommerce .actions > button[type=submit]:hover, .woocommerce .checkout.wc-forward:hover, .woocommerce button#place_order:hover, .woocommerce .return-to-shop > .button:hover, ul[id^="nv-primary-navigation"] .nv-nav-cart a.button.checkout.wc-forward:hover, .button.woocommerce-form-login__submit:hover{color:#ffffff;}.button.button-primary, button, input[type=button], .btn, input[type="submit"]:not(.search-submit), /* Buttons in navigation */ ul[id^="nv-primary-navigation"] li.button.button-primary > a, .menu li.button.button-primary > a ,.woocommerce a.button, .woocommerce .button:not(.nv-sidebar-toggle):not(.nv-close-cart-sidebar), .woocommerce a.button.alt, .woocommerce a.button.button-primary, .woocommerce a.button.checkout-button, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce a.button.add_to_cart, .woocommerce a.product_type_grouped, .woocommerce a.product_type_external, .woocommerce a.product_type_variable, .woocommerce button.button.alt, .woocommerce button.button.alt.single_add_to_cart_button.disabled, .woocommerce button.button.alt.single_add_to_cart_button, .woocommerce .actions > button[type=submit], .woocommerce .checkout.wc-forward, .woocommerce button#place_order, .woocommerce .return-to-shop > .button, ul[id^="nv-primary-navigation"] .nv-nav-cart a.button.checkout.wc-forward, .button.woocommerce-form-login__submit{border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;} .button.button-secondary, #comments input[type="submit"], .cart-off-canvas .button.nv-close-cart-sidebar ,.woocommerce ul[id^="nv-primary-navigation"] .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout) ,.woocommerce-cart table.cart td.actions .coupon > .input-text + .button, .woocommerce-checkout #neve-checkout-coupon .woocommerce-form-coupon .form-row-last button, .woocommerce button.button, .woocommerce a.added_to_cart, .woocommerce .checkout_coupon button.button, .woocommerce #review_form #respond input#submit, .woocommerce .price_slider_amount button.button:not(.nv-sidebar-toggle):not(.nv-close-cart-sidebar), .woocommerce .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout), .woocommerce .button.button-secondary.more-details{color:#676767;}.button.button-secondary, #comments input[type="submit"], .cart-off-canvas .button.nv-close-cart-sidebar ,.woocommerce ul[id^="nv-primary-navigation"] .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout) ,.woocommerce-cart table.cart td.actions .coupon > .input-text + .button, .woocommerce-checkout #neve-checkout-coupon .woocommerce-form-coupon .form-row-last button, .woocommerce button.button, .woocommerce a.added_to_cart, .woocommerce .checkout_coupon button.button, .woocommerce #review_form #respond input#submit, .woocommerce .price_slider_amount button.button:not(.nv-sidebar-toggle):not(.nv-close-cart-sidebar), .woocommerce .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout), .woocommerce .button.button-secondary.more-details{border-color:#676767;} .button.button-secondary:hover, #comments input[type="submit"]:hover ,#comments input[type=submit]:hover, .woocommerce-cart table.cart td.actions .coupon > .input-text + .button:hover, .woocommerce-checkout #neve-checkout-coupon .woocommerce-form-coupon .form-row-last button:hover, .woocommerce button.button:hover, .woocommerce a.added_to_cart:hover, .woocommerce .checkout_coupon button.button:hover, .woocommerce #review_form #respond input#submit:hover, .woocommerce .price_slider_amount button.button:hover, .woocommerce .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout):hover, .woocommerce .button.button-secondary.more-details:hover ,.woocommerce ul[id^="nv-primary-navigation"] .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout):hover{color:#676767;}.button.button-secondary:hover, #comments input[type="submit"]:hover ,#comments input[type=submit]:hover, .woocommerce-cart table.cart td.actions .coupon > .input-text + .button:hover, .woocommerce-checkout #neve-checkout-coupon .woocommerce-form-coupon .form-row-last button:hover, .woocommerce button.button:hover, .woocommerce a.added_to_cart:hover, .woocommerce .checkout_coupon button.button:hover, .woocommerce #review_form #respond input#submit:hover, .woocommerce .price_slider_amount button.button:hover, .woocommerce .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout):hover, .woocommerce .button.button-secondary.more-details:hover ,.woocommerce ul[id^="nv-primary-navigation"] .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout):hover{border-color:#676767;}.button.button-secondary, #comments input[type="submit"] ,.woocommerce-cart table.cart td.actions .coupon > .input-text + .button, .woocommerce-checkout #neve-checkout-coupon .woocommerce-form-coupon .form-row-last button, .woocommerce button.button, .woocommerce a.added_to_cart, .woocommerce .checkout_coupon button.button, .woocommerce #review_form #respond input#submit, .woocommerce .price_slider_amount button.button:not(.nv-sidebar-toggle):not(.nv-close-cart-sidebar), .woocommerce .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout), .woocommerce .button.button-secondary.more-details ,.woocommerce ul[id^="nv-primary-navigation"] .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout),.woocommerce a.nv-quick-view-product.top{border-radius:3px;}.button.button-secondary, #comments input[type="submit"] ,.woocommerce-cart table.cart td.actions .coupon > .input-text + .button, .woocommerce-checkout #neve-checkout-coupon .woocommerce-form-coupon .form-row-last button, .woocommerce button.button, .woocommerce a.added_to_cart, .woocommerce .checkout_coupon button.button, .woocommerce #review_form #respond input#submit, .woocommerce .price_slider_amount button.button:not(.nv-sidebar-toggle):not(.nv-close-cart-sidebar), .woocommerce .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout), .woocommerce .button.button-secondary.more-details ,.woocommerce ul[id^="nv-primary-navigation"] .woocommerce-mini-cart__buttons.buttons a.button.wc-forward:not(.checkout),.woocommerce a.nv-quick-view-product.top{border:1px solid;border-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;}@media(min-width: 576px){body, .site-title{font-size:16px;line-height:1.6em;letter-spacing:0px;}}@media(min-width: 960px){body, .site-title{font-size:16px;line-height:1.6em;letter-spacing:0px;}}.hfg_header .header-top-inner,.hfg_header .header-top-inner.dark-mode,.hfg_header .header-top-inner.light-mode { } .hfg_header .header-main-inner,.hfg_header .header-main-inner.dark-mode,.hfg_header .header-main-inner.light-mode { } .hfg_header .header-bottom-inner,.hfg_header .header-bottom-inner.dark-mode,.hfg_header .header-bottom-inner.light-mode { } .hfg_header .header-menu-sidebar .header-menu-sidebar-bg,.hfg_header .header-menu-sidebar .header-menu-sidebar-bg.dark-mode,.hfg_header .header-menu-sidebar .header-menu-sidebar-bg.light-mode { } @media (max-width: 576px) { .builder-item--logo .site-logo img { max-width: 120px; } .builder-item--logo .site-logo { padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; } .builder-item--logo { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--nav-icon .navbar-toggle { padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px; } .builder-item--nav-icon { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--primary-menu li > a { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--primary-menu li > a svg { height: 1em; width: 1em; } .builder-item--primary-menu { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--button_base > .component-wrap > .button { padding-top: 8px; padding-right: 12px; padding-bottom: 8px; padding-left: 12px; } .builder-item--button_base { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--custom_html .nv-html-content { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--custom_html .nv-html-content svg { height: 1em; width: 1em; } .builder-item--custom_html { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--header_search { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--header_search_responsive { padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--secondary-menu #secondary-menu li > a { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--secondary-menu #secondary-menu li > a svg { height: 1em; width: 1em; } .builder-item--secondary-menu { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--header_cart_icon { padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .footer-bottom-inner { height: auto; } .builder-item--footer-one-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-two-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-three-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-four-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-menu li > a { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--footer-menu li > a svg { height: 1em; width: 1em; } .builder-item--footer-menu { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer_copyright { font-size: 1em; line-height: 1.6; letter-spacing: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer_copyright svg { height: 1em; width: 1em; } } @media (min-width: 576px) { .builder-item--logo .site-logo img { max-width: 120px; } .builder-item--logo .site-logo { padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; } .builder-item--logo { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--nav-icon .navbar-toggle { padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px; } .builder-item--nav-icon { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--primary-menu li > a { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--primary-menu li > a svg { height: 1em; width: 1em; } .builder-item--primary-menu { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--button_base > .component-wrap > .button { padding-top: 8px; padding-right: 12px; padding-bottom: 8px; padding-left: 12px; } .builder-item--button_base { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--custom_html .nv-html-content { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--custom_html .nv-html-content svg { height: 1em; width: 1em; } .builder-item--custom_html { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--header_search { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--header_search_responsive { padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--secondary-menu #secondary-menu li > a { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--secondary-menu #secondary-menu li > a svg { height: 1em; width: 1em; } .builder-item--secondary-menu { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--header_cart_icon { padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .footer-bottom-inner { height: auto; } .builder-item--footer-one-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-two-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-three-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-four-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-menu li > a { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--footer-menu li > a svg { height: 1em; width: 1em; } .builder-item--footer-menu { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer_copyright { font-size: 1em; line-height: 1.6; letter-spacing: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer_copyright svg { height: 1em; width: 1em; } } @media (min-width: 961px) { .builder-item--logo .site-logo img { max-width: 120px; } .builder-item--logo .site-logo { padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; } .builder-item--logo { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--nav-icon .navbar-toggle { padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px; } .builder-item--nav-icon { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--primary-menu li > a { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--primary-menu li > a svg { height: 1em; width: 1em; } .builder-item--primary-menu { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--button_base > .component-wrap > .button { padding-top: 8px; padding-right: 12px; padding-bottom: 8px; padding-left: 12px; } .builder-item--button_base { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--custom_html .nv-html-content { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--custom_html .nv-html-content svg { height: 1em; width: 1em; } .builder-item--custom_html { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--header_search { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--header_search_responsive { padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--secondary-menu #secondary-menu li > a { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--secondary-menu #secondary-menu li > a svg { height: 1em; width: 1em; } .builder-item--secondary-menu { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--header_cart_icon { padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .footer-bottom-inner { height: 100px; } .builder-item--footer-one-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-two-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-three-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-four-widgets { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer-menu li > a { font-size: 1em; line-height: 1.6; letter-spacing: 0px; } .builder-item--footer-menu li > a svg { height: 1em; width: 1em; } .builder-item--footer-menu { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer_copyright { font-size: 1em; line-height: 1.6; letter-spacing: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .builder-item--footer_copyright svg { height: 1em; width: 1em; } } .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li:not(.woocommerce-mini-cart-item) > a { color: #404248; } .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li > .amp-caret-wrap svg { fill: #404248; } .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li:not(.woocommerce-mini-cart-item) > a:after { background-color: #0366d6; } .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li:not(.woocommerce-mini-cart-item):hover > a { color: #0366d6; } .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li:hover > .amp-caret-wrap svg { fill: #0366d6; } .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li.current-menu-item > a { color: #0366d6; } .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li.current-menu-item > .amp-caret-wrap svg { fill: #0366d6; } @media (min-width: 961px) { .header--row .hfg-item-right .builder-item--primary-menu .primary-menu-ul > li:not(:first-child) { margin-left: 20px; } .header--row .hfg-item-center .builder-item--primary-menu .primary-menu-ul > li:not(:last-child), .header--row .hfg-item-left .builder-item--primary-menu .primary-menu-ul > li:not(:last-child) { margin-right: 20px; } .builder-item--primary-menu .style-full-height .primary-menu-ul > li:not(.menu-item-nav-search):not(.menu-item-nav-cart) > a:after { left: -10px; right: -10px; } .builder-item--primary-menu .style-full-height .primary-menu-ul:not(#nv-primary-navigation-sidebar) > li:not(.menu-item-nav-search):not(.menu-item-nav-cart):hover > a:after { width: calc(100% + 20px) !important;; } } .builder-item--primary-menu .primary-menu-ul > li > a { height: 25px; } .builder-item--primary-menu li > a { font-weight: 500; text-transform: none; } .builder-item--button_base > .component-wrap > .button { border-radius: 3px; } .builder-item--custom_html .nv-html-content { font-weight: 500; text-transform: none; } .builder-item--header_search_responsive .nv-search > svg { width: 15px; height: 15px; } .hfg-item-right .builder-item--secondary-menu #secondary-menu > li:not(:first-child) { margin-left: 20px; } .hfg-item-center .builder-item--secondary-menu #secondary-menu li:not(:last-child), .hfg-item-left .builder-item--secondary-menu #secondary-menu > li:not(:last-child) { margin-right: 20px; } .builder-item--secondary-menu .style-full-height #secondary-menu > li > a:after { left: -10px; right: -10px; } .builder-item--secondary-menu .style-full-height #secondary-menu > li:hover > a:after { width: calc(100% + 20px) !important;; } .builder-item--secondary-menu #secondary-menu > li > a { height: 25px; } .builder-item--secondary-menu #secondary-menu li > a { font-weight: 500; text-transform: none; } .builder-item--header_cart_icon svg { width: 15px; height: 15px; } .footer-top-inner,.footer-top-inner.dark-mode,.footer-top-inner.light-mode { } .footer-bottom-inner,.footer-bottom-inner.dark-mode,.footer-bottom-inner.light-mode { } .hfg-item-right .builder-item--footer-menu .footer-menu > li:not(:first-child) { margin-left: 20px; } .hfg-item-center .builder-item--footer-menu .footer-menu li:not(:last-child), .hfg-item-left .builder-item--footer-menu .footer-menu > li:not(:last-child) { margin-right: 20px; } .builder-item--footer-menu .style-full-height .footer-menu > li > a:after { left: -10px !important; right: -10px !important; } .builder-item--footer-menu .style-full-height .footer-menu > li:hover > a:after { width: calc(100% + 20px) !important;; } .builder-item--footer-menu .footer-menu > li > a { height: 25px; } .builder-item--footer-menu li > a { font-weight: 500; text-transform: none; } .builder-item--footer_copyright { font-weight: 500; text-transform: none; } 
+</style>
+<link rel="stylesheet" id="wppb-posts-css-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/posts-addon.css" type="text/css" media="all">
+<link rel="stylesheet" id="yoast-seo-adminbar-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/adminbar-1330.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_fonticons_ii-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-fonticons-ii.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_fonticons_fa-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-fonticons-fa.css" type="text/css" media="all">
+<link rel="stylesheet" id="select2-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/select2.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_crop-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-crop.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_modal-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-modal.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_styles-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_profile-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-profile.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_account-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-account.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_misc-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-misc.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_fileupload-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-fileupload.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_datetime-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/default_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_datetime_date-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/default_003.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_datetime_time-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/default.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_raty-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-raty.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_scrollbar-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/simplebar.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_tipsy-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-tipsy.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_responsive-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="um_default_css-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/um-old-default.css" type="text/css" media="all">
+<link rel="stylesheet" id="neve-google-font-chelsea-market-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/css_003.css" type="text/css" media="all">
+<link rel="stylesheet" id="neve-google-font-fredoka-one-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/css_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="fontawesome47-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="cleverfont-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="cmm4e-menu-skin-prime-menu-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/cmm4e-menu-skin-prime-menu.css" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="/FrontEnd/Templates - ( )Softer. Templates_files/css.css" type="text/css" media="all">
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/jquery.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/jquery-migrate.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/jq-sticky-anything.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/admin-bar_002.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/v4-shims.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-gdpr.js"></script>
+<link rel="https://api.w.org/" href="http://localhost/wordpress/index.php/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/wordpress/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/wordpress/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.3.2">
+<meta name="generator" content="WooCommerce 4.0.1">
+<link rel="shortlink" href="http://localhost/wordpress/?p=4418">
+<link rel="alternate" type="application/json+oembed" href="http://localhost/wordpress/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Ftemplates%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://localhost/wordpress/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Ftemplates%2F&amp;format=xml">
+		<style type="text/css">
+			.request_name {
+				display: none !important;
+			}
+		</style>
+		<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+	<link rel="icon" href="http://localhost/wordpress/wp-content/uploads/2020/03/Logo-3-150x150.png" sizes="32x32">
+<link rel="icon" href="http://localhost/wordpress/wp-content/uploads/2020/03/Logo-3.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="http://localhost/wordpress/wp-content/uploads/2020/03/Logo-3.png">
+<meta name="msapplication-TileImage" content="http://localhost/wordpress/wp-content/uploads/2020/03/Logo-3.png">
+<style id="kirki-inline-styles"></style>
+
+<body class="page-template page-template-elementor_header_footer page page-id-4418 logged-in admin-bar theme-neve woocommerce-js ehf-header ehf-template-neve ehf-stylesheet-neve nv-sidebar-right menu_sidebar_slide_left elementor-default elementor-template-full-width elementor-kit-4668 elementor-page elementor-page-4418 customize-support" data-elementor-device-mode="desktop">
+<div class="wrapper">
+	@include('FrontEnd.incs.header')
+	
+	<main id="content" class="neve-main" role="main">
+
+		<div data-elementor-type="wp-page" data-elementor-id="4418" class="elementor elementor-4418" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-4f7f7b24 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="4f7f7b24" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3b174d20 elementor-column elementor-col-100 elementor-top-column" data-id="3b174d20" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d7b65e elementor-widget elementor-widget-heading" data-id="d7b65e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">Templates</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4ac3aba2 elementor-widget elementor-widget-divider" data-id="4ac3aba2" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-da14cc0 elementor-widget elementor-widget-heading" data-id="da14cc0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-medium">Get complete
+ control over the design of your WordPress site in a matter of minutes. 
+Go from draft to website in less time than ever before.</p>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-76814f4b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="76814f4b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5877e24d elementor-column elementor-col-100 elementor-top-column" data-id="5877e24d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-727e46e2 elementor-arrows-position-outside elementor-widget elementor-widget-image-carousel" data-id="727e46e2" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;6&quot;,&quot;slides_to_scroll&quot;:&quot;2&quot;,&quot;navigation&quot;:&quot;arrows&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:78,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;direction&quot;:&quot;ltr&quot;}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper-container swiper-container-initialized swiper-container-horizontal" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" style="transform: translate3d(-3034.67px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/larozse-on1pwezmgb19pe7ohylvrq62xtu6svnpv4ee6026zg.png" alt="larozse.png"></figure></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="8" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/bolier-on1pwfxgn52k106bch0ic7xjj7pk0krg791vna0st8.png" alt="bolier.png"></figure></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="9" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/mapmaster-on1pwfxgn52k106bch0ic7xjj7pk0krg791vna0st8.png" alt="mapmaster.png"></figure></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="10" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/darkside-on1pwgvatz3ucm4y6zf4wpp04lkx89v6jdpd4jzen0.png" alt="darkside.png"></figure></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="11" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/digit-on1pwht50t54o83l1htrh7ggpzgafyywviculty0gs.png" alt="digit.png"></figure></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="12" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/col-on1pwiqz7n6ezu27w08e1p7xbdbnno2n7n0c33wmak.png" alt="col.png"></figure></div>
+				<div class="swiper-slide" data-swiper-slide-index="0" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/zusman-on1pw6j2qsposwjyvcy8naaxlczvvlq4tyj0uieqjg.png" alt="zusman.png"></figure></div><div class="swiper-slide" data-swiper-slide-index="1" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/zing-on1pw7gwxmqz4iilpvcv7s2e6qv93atv636ibsdcd8.png" alt="zing.png"></figure></div><div class="swiper-slide" data-swiper-slide-index="2" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/madrin-on1pw8er4gs9g4h8kdrhs9tus4qmazxli7tzt2by70.png" alt="madrin.png"></figure></div><div class="swiper-slide" data-swiper-slide-index="3" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/armond-1-on1pwaafi4uu3cei9ekqx9crywhcqe526h4yrm95uk.png" alt="armond-1.png"></figure></div><div class="swiper-slide" data-swiper-slide-index="4" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/x.png" alt="x.venox_.png"></figure></div><div class="swiper-slide" data-swiper-slide-index="5" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/geo-on1pwc63vsxeqkbryfe028vp5o835sciuqfxq66di4.png" alt="geo.png"></figure></div><div class="swiper-slide" data-swiper-slide-index="6" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/fifthflour-on1pwe1s9gzzds91ng7978emcfytl6jzizqwoq3l5o.png" alt="fifthflour.png"></figure></div><div class="swiper-slide" data-swiper-slide-index="7" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/larozse-on1pwezmgb19pe7ohylvrq62xtu6svnpv4ee6026zg.png" alt="larozse.png"></figure></div><div class="swiper-slide" data-swiper-slide-index="8" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/bolier-on1pwfxgn52k106bch0ic7xjj7pk0krg791vna0st8.png" alt="bolier.png"></figure></div><div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="9" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/mapmaster-on1pwfxgn52k106bch0ic7xjj7pk0krg791vna0st8.png" alt="mapmaster.png"></figure></div><div class="swiper-slide swiper-slide-active" data-swiper-slide-index="10" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/darkside-on1pwgvatz3ucm4y6zf4wpp04lkx89v6jdpd4jzen0.png" alt="darkside.png"></figure></div><div class="swiper-slide swiper-slide-next" data-swiper-slide-index="11" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/digit-on1pwht50t54o83l1htrh7ggpzgafyywviculty0gs.png" alt="digit.png"></figure></div><div class="swiper-slide" data-swiper-slide-index="12" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/col-on1pwiqz7n6ezu27w08e1p7xbdbnno2n7n0c33wmak.png" alt="col.png"></figure></div>			<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/zusman-on1pw6j2qsposwjyvcy8naaxlczvvlq4tyj0uieqjg.png" alt="zusman.png"></figure></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/zing-on1pw7gwxmqz4iilpvcv7s2e6qv93atv636ibsdcd8.png" alt="zing.png"></figure></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/madrin-on1pw8er4gs9g4h8kdrhs9tus4qmazxli7tzt2by70.png" alt="madrin.png"></figure></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/armond-1-on1pwaafi4uu3cei9ekqx9crywhcqe526h4yrm95uk.png" alt="armond-1.png"></figure></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/x.png" alt="x.venox_.png"></figure></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 111.667px; margin-right: 78px;"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="/FrontEnd/Templates - ( )Softer. Templates_files/geo-on1pwc63vsxeqkbryfe028vp5o835sciuqfxq66di4.png" alt="geo.png"></figure></div></div>
+																<div class="elementor-swiper-button elementor-swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide">
+						<i class="fa fa-chevron-left" aria-hidden="true"></i>
+						<span class="elementor-screen-only">Previous</span>
+					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next" tabindex="0" role="button" aria-label="Next slide">
+						<i class="fa fa-chevron-right" aria-hidden="true"></i>
+						<span class="elementor-screen-only">Next</span>
+					</div>
+									<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b986c71 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b986c71" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;none&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-6fdbf2da elementor-column elementor-col-100 elementor-top-column" data-id="6fdbf2da" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-402a6536 elementor-widget elementor-widget-testimonial" data-id="402a6536" data-element_type="widget" data-widget_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper">
+							<div class="elementor-testimonial-content">"What really turned me over was the ability to understand how everything works without any prior knowledge."</div>
+			
+						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+				<div class="elementor-testimonial-meta-inner">
+											<div class="elementor-testimonial-image">
+							<img src="/FrontEnd/Templates - ( )Softer. Templates_files/25497478040_140ce47f31_k.jpg" class="attachment-full size-full" alt="" sizes="(max-width: 300px) 100vw, 300px" width="300" height="300">						</div>
+					
+										<div class="elementor-testimonial-details">
+														<div class="elementor-testimonial-name">John Doe</div>
+																						<div class="elementor-testimonial-job">Designer</div>
+													</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-7a56a7ae elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="7a56a7ae" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1e3826ba elementor-column elementor-col-50 elementor-top-column" data-id="1e3826ba" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6c508365 elementor-widget elementor-widget-divider" data-id="6c508365" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6b4c858f elementor-widget elementor-widget-heading" data-id="6b4c858f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Experience design at scale
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-42b236d1 elementor-widget elementor-widget-text-editor" data-id="42b236d1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">I am text 
+block. Click edit button to change this text. Lorem ipsum dolor sit 
+amet, consectetur adipiscing elit. Ut elit tellus, luctus nec 
+ullamcorper mattis, pulvinar dapibus leo.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-75fde07a elementor-widget elementor-widget-heading" data-id="75fde07a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-medium">Read More</p>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-3cf87a32 elementor-column elementor-col-50 elementor-top-column" data-id="3cf87a32" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4e4c770b elementor-widget elementor-widget-image" data-id="4e4c770b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img src="/FrontEnd/Templates - ( )Softer. Templates_files/1470399607_Illustration.png" class="attachment-full size-full" alt="" sizes="(max-width: 512px) 100vw, 512px" width="512" height="512">											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-23b4c018 elementor-section-height-min-height elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="23b4c018" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;none&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2ec6a5e elementor-column elementor-col-50 elementor-top-column" data-id="2ec6a5e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-40149ae elementor-widget elementor-widget-image" data-id="40149ae" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img src="/FrontEnd/Templates - ( )Softer. Templates_files/1470399614_Social_Media.png" class="attachment-full size-full" alt="" sizes="(max-width: 512px) 100vw, 512px" width="512" height="512">											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-50103283 elementor-column elementor-col-50 elementor-top-column" data-id="50103283" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-21c25a84 elementor-widget elementor-widget-divider" data-id="21c25a84" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1081a07f elementor-widget elementor-widget-heading" data-id="1081a07f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Understand your user experience</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-13c73445 elementor-widget elementor-widget-text-editor" data-id="13c73445" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">I am text 
+block. Click edit button to change this text. Lorem ipsum dolor sit 
+amet, consectetur adipiscing elit. Ut elit tellus, luctus nec 
+ullamcorper mattis, pulvinar dapibus leo.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2ef07ba7 elementor-widget elementor-widget-heading" data-id="2ef07ba7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-medium">Read More</p>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-5b95a724 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="5b95a724" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7b7b4cb7 elementor-column elementor-col-50 elementor-top-column" data-id="7b7b4cb7" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-40be6251 elementor-widget elementor-widget-divider" data-id="40be6251" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7e81b465 elementor-widget elementor-widget-heading" data-id="7e81b465" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">remain responsive across devices</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b756240 elementor-widget elementor-widget-text-editor" data-id="b756240" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">I am text 
+block. Click edit button to change this text. Lorem ipsum dolor sit 
+amet, consectetur adipiscing elit. Ut elit tellus, luctus nec 
+ullamcorper mattis, pulvinar dapibus leo.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3c8fb137 elementor-widget elementor-widget-heading" data-id="3c8fb137" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-medium">Read More</p>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-166a9c07 elementor-column elementor-col-50 elementor-top-column" data-id="166a9c07" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5002d1f2 elementor-widget elementor-widget-image" data-id="5002d1f2" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img src="/FrontEnd/Templates - ( )Softer. Templates_files/1470399594_Web_Design.png" class="attachment-full size-full" alt=""  width="512" height="512">											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-2f1cc172 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="2f1cc172" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4fb6ad3c elementor-column elementor-col-100 elementor-top-column" data-id="4fb6ad3c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2ae6beb9 elementor-widget elementor-widget-heading" data-id="2ae6beb9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">fall in love with our features
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7b6ff3dd elementor-widget elementor-widget-divider" data-id="7b6ff3dd" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-element elementor-element-43e96018 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="43e96018" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wider">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-41f9c3be elementor-column elementor-col-50 elementor-inner-column" data-id="41f9c3be" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-32a0908c elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="32a0908c" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img src="/FrontEnd/Templates - ( )Softer. Templates_files/1470399662_Marketing.png" class="attachment-full size-full" alt="" width="128" height="128"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Real time stats</h3><p class="elementor-image-box-description">Click
+ edit button to change this text. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Ut elit tellus, luctus nec mattis, pulvinar
+ dapibus leo.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-33589b86 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="33589b86" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img src="/FrontEnd/Templates - ( )Softer. Templates_files/1470399671_SEO.png" class="attachment-full size-full" alt="" width="128" height="128"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Multilingual &amp; translatable</h3><p class="elementor-image-box-description">Click
+ edit button to change this text. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Ut elit tellus, luctus nec mattis, 
+pulvinar.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-de22632 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="de22632" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img src="/FrontEnd/Templates - ( )Softer. Templates_files/1470399715_E-Commerce.png" class="attachment-full size-full" alt="" width="128" height="128"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Less plugins needed</h3><p class="elementor-image-box-description">Click
+ edit button to change this text. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Ut elit tellus, luctus nec mattis, pulvinar
+ dapibus leo.</p></div></div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-1f6110d5 elementor-column elementor-col-50 elementor-inner-column" data-id="1f6110d5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6f615cff elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="6f615cff" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img src="/FrontEnd/Templates - ( )Softer. Templates_files/1470399674_App_Development.png" class="attachment-full size-full" alt="" width="128" height="128"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Amazingly responsive</h3><p class="elementor-image-box-description">Click
+ edit button to change this text. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Ut elit tellus, luctus nec mattis, pulvinar
+ dapibus leo.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-24fbd9d3 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="24fbd9d3" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img src="/FrontEnd/Templates - ( )Softer. Templates_files/1470399667_Newsletter.png" class="attachment-full size-full" alt="" width="128" height="128"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Community builder</h3><p class="elementor-image-box-description">Click
+ edit button to change this text. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Ut elit tellus, luctus nec mattis, pulvinar
+ dapibus leo.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f7ad890 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="f7ad890" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img src="/FrontEnd/Templates - ( )Softer. Templates_files/1470399656_Branding.png" class="attachment-full size-full" alt="" width="128" height="128"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Easy to use interface</h3><p class="elementor-image-box-description">Click
+ edit button to change this text. Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Ut elit tellus, luctus nec mattis, pulvinar
+ dapibus leo.</p></div></div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-1394ec3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="1394ec3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-8c87158 elementor-column elementor-col-100 elementor-top-column" data-id="8c87158" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2e915251 elementor-widget elementor-widget-heading" data-id="2e915251" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">Make a beautiful website</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-209154a4 elementor-widget elementor-widget-heading" data-id="209154a4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-medium">It has never been easier to create pages and websites on Softer</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-342d363e elementor-widget elementor-widget-button" data-id="342d363e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">GET STARTED</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-3a9e8a05 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3a9e8a05" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-ad4d039 elementor-column elementor-col-100 elementor-top-column" data-id="ad4d039" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e7dad72 elementor-widget elementor-widget-text-editor" data-id="e7dad72" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Image Source: <a href="http://www.wocintechchat.com/">WOCinTechChat</a>, <a href="https://www.iconfinder.com/iconsets/elpis">Icon Finder</a></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		</main><!--/.neve-main-->
+
+
+<footer class="site-footer" id="site-footer">
+	<div class="hfg_footer">
+		<div class="footer--row footer-bottom layout-full-contained" id="cb-row--footer-bottom" data-row-id="bottom" data-show-on="desktop">
+	<div class="footer--row-inner footer-bottom-inner dark-mode footer-content-wrap">
+		<div class="container">
+			<div class="hfg-grid nv-footer-content hfg-grid-bottom row--wrapper row " data-section="hfg_footer_layout_bottom">
+				<div class="builder-item hfg-item-last hfg-item-first col-12 col-md-12 col-sm-12 hfg-item-center"><div class="item--inner builder-item--footer_copyright" data-section="footer_copyright" data-item-id="footer_copyright">
+	<div class="component-wrap">
+	<p><a href="https://themeisle.com/themes/neve/" rel="nofollow">SOFTER</a> | Powered by <a href="http://localhost/wordpress/index.php/about/" rel="nofollow">SOFTER TEAM</a></p></div>
+
+	</div>
+
+</div>							</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+</footer>
+
+</div><!--/.wrapper-->
+
+<div id="um_upload_single" style="display:none"></div>
+<div id="um_view_photo" style="display:none">
+
+	<a href="javascript:void(0);" data-action="um_remove_modal" class="um-modal-close"><i class="um-faicon-times"></i></a>
+
+	<div class="um-modal-body photo">
+		<div class="um-modal-photo"></div>
+	</div>
+
+</div><script type="text/template" id="tmpl-elementor-templates-modal__header">
+	
+</script>
+
+<script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
+	
+</script>
+<script type="text/template" id="tmpl-elementor-finder">
+	<div id="elementor-finder__search">
+		<i class="eicon-search"></i>
+		<input id="elementor-finder__search__input" placeholder="Type to find anything in Elementor">
+	</div>
+	<div id="elementor-finder__content"></div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-finder-results-container">
+	<div id="elementor-finder__no-results">No Results Found</div>
+	<div id="elementor-finder__results"></div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-finder__results__category">
+	
+</script>
+
+<script type="text/template" id="tmpl-elementor-finder__results__item">
+	
+</script>
+	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/hoverintent-js.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/admin-bar.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/animate.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/localhost\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/scripts.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sticky_anything_engage = {"element":".header-nav","topspace":"0","minscreenwidth":"0","maxscreenwidth":"999999","zindex":"1","legacymode":"","dynamicmode":"","debugmode":"","pushup":"","adminbar":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/stickThis.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/jquery_002.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wordpress\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wordpress\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/localhost\/wordpress","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/add-to-cart.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/js.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wordpress\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wordpress\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/woocommerce.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wordpress\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wordpress\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_20b1889e582361135d1b2f944762415e","fragment_name":"wc_fragments_20b1889e582361135d1b2f944762415e","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/cart-fragments.js"></script>
+<script type="text/javascript">
+		jQuery( 'body' ).bind( 'wc_fragments_refreshed', function() {
+			jQuery( 'body' ).trigger( 'jetpack-lazy-images-load' );
+		} );
+	
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var NeveProperties = {"ajaxurl":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php","nonce":"9feb8cc9d9"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/frontend.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/comment-reply.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/main.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wppb_posts_addon = {"ajax_url":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/posts-addon.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/core.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/widget.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/mouse.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/draggable.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/underscore.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/backbone.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/backbone_002.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/backbone_003.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/common-modules.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/position.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/dialog.js"></script>
+<script type="text/javascript">
+var elementorCommonConfig = {"version":"2.9.7","isRTL":false,"isDebug":false,"activeModules":["ajax","finder","connect"],"urls":{"assets":"http:\/\/localhost\/wordpress\/wp-content\/plugins\/elementor\/assets\/"},"ajax":{"url":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php","nonce":"214d9b2d11"},"finder":{"data":{"edit":{"title":"Edit","dynamic":true,"name":"edit"},"general":{"title":"General","dynamic":false,"items":{"saved-templates":{"title":"Saved Templates","icon":"library-save","url":"http:\/\/localhost\/wordpress\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library","keywords":["template","section","page","library"]},"system-info":{"title":"System Info","icon":"info-circle-o","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=elementor-system-info","keywords":["system","info","environment","elementor"]},"role-manager":{"title":"Role Manager","icon":"person","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=elementor-role-manager","keywords":["role","manager","user","elementor"]},"knowledge-base":{"title":"Knowledge Base","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=go_knowledge_base_site","keywords":["help","knowledge","docs","elementor"]}},
+"name":"general"},"create":{"title":"Create","dynamic":false,"items":{"post":{"title":"Add New Post","icon":"plus-circle-o","url":"http:\/\/localhost\/wordpress\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&_wpnonce=efabdc7d80","keywords":["post","page","template","new","create"]},"page":{"title":"Add New Page","icon":"plus-circle-o","url":"http:\/\/localhost\/wordpress\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&_wpnonce=efabdc7d80","keywords":["post","page","template","new","create"]},"cmm4e_menu":{"title":"Add New Clever Mega Menu Item","icon":"plus-circle-o","url":"http:\/\/localhost\/wordpress\/wp-admin\/edit.php?action=elementor_new_post&post_type=cmm4e_menu&_wpnonce=efabdc7d80","keywords":["post","page","template","new","create"]},"elementor_library":{"title":"Add New Template","icon":"plus-circle-o","url":"http:\/\/localhost\/wordpress\/wp-admin\/edit.php?post_type=elementor_library#add_new","keywords":["post","page","template","new","create"]},"elementor-hf":{"title":"Add New Elementor Header Footer","icon":"plus-circle-o","url":"http:\/\/localhost\/wordpress\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=efabdc7d80","keywords":["post","page","template","new","create"]}},
+"name":"create"},"site":{"title":"Site","dynamic":false,"items":{"homepage":{"title":"Homepage","url":"http:\/\/localhost\/wordpress","icon":"home-heart","keywords":["home","page"]},"wordpress-dashboard":{"title":"Dashboard","icon":"dashboard","url":"http:\/\/localhost\/wordpress\/wp-admin\/","keywords":["dashboard","wordpress"]},"wordpress-menus":{"title":"Menus","icon":"wordpress","url":"http:\/\/localhost\/wordpress\/wp-admin\/nav-menus.php","keywords":["menu","wordpress"]},"wordpress-themes":{"title":"Themes","icon":"wordpress","url":"http:\/\/localhost\/wordpress\/wp-admin\/themes.php","keywords":["themes","wordpress"]},"wordpress-customizer":{"title":"Customizer","icon":"wordpress","url":"http:\/\/localhost\/wordpress\/wp-admin\/customize.php","keywords":["customizer","wordpress"]},"wordpress-plugins":{"title":"Plugins","icon":"wordpress","url":"http:\/\/localhost\/wordpress\/wp-admin\/plugins.php","keywords":["plugins","wordpress"]},"wordpress-users":{"title":"Users","icon":"wordpress","url":"http:\/\/localhost\/wordpress\/wp-admin\/users.php","keywords":["users","profile","wordpress"]}},
+"name":"site"},"settings":{"title":"Settings","dynamic":false,"items":{"general-settings":{"title":"General Settings","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=elementor","keywords":["general","settings","elementor"]},"style":{"title":"Style","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=elementor#tab-style","keywords":["style","settings","elementor"]},"advanced":{"title":"Advanced","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=elementor#tab-advanced","keywords":["advanced","settings","elementor"]}},
+"name":"settings"},"tools":{"title":"Tools","dynamic":false,"items":{"tools":{"title":"Tools","icon":"tools","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=elementor-tools","keywords":["tools","regenerate css","safe mode","debug bar","sync library","elementor"]},"replace-url":{"title":"Replace URL","icon":"tools","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url","keywords":["tools","replace url","domain","elementor"]},"version-control":{"title":"Version Control","icon":"time-line","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=elementor-tools#tab-versions","keywords":["tools","version","control","rollback","beta","elementor"]},"maintenance-mode":{"title":"Maintenance Mode","icon":"tools","url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode","keywords":["tools","maintenance","coming soon","elementor"]}},
+"name":"tools"}},
+"i18n":{"finder":"Finder"}},
+"connect":[]};
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/common.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/select2.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wordpress\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/wp-util.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-crop.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-modal.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-jquery-form.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-fileupload.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/picker_003.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/picker_002.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/picker.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/legacy.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/wp-polyfill.js"></script>
+<script type="text/javascript">
+( 'fetch' in window ) || document.write( '<script src="http://localhost/wordpress/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="http://localhost/wordpress/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="http://localhost/wordpress/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="http://localhost/wordpress/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/i18n.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-raty.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-tipsy.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/imagesloaded.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/masonry.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/jquery_003.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/simplebar.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-functions.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-responsive.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-conditional.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var um_scripts = {"nonce":"e9165a5fa1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-scripts.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-profile.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/um-account.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var cmm4eFrontendConfig = {"isRTL":"","isMobile":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/cmm4e.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/wp-embed.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/frontend-modules.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/waypoints.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/swiper.js"></script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/share-link.js"></script>
+<script type="text/javascript">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","downloadImage":"Download image"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.9.7","urls":{"assets":"http:\/\/localhost\/wordpress\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":4418,"title":"Templates%20-%20%28%20%29Softer.%20Templates","excerpt":"","featuredImage":false},"user":{"roles":["administrator"]}};
+</script>
+<script type="text/javascript" src="/FrontEnd/Templates - ( )Softer. Templates_files/frontend_002.js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
+		</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript">
+			(function() {
+				var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+						request = true;
+		
+				b[c] = b[c].replace( rcs, ' ' );
+				// The customizer requires postMessage and CORS (if the site is cross domain)
+				b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+			}());
+		</script>
+	<!--<![endif]-->
+			
+
+				<script type="text/javascript">
+			jQuery( '#request' ).val( '' );
+		</script>
+	
+
+
+
+@endsection
